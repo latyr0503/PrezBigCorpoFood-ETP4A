@@ -10,7 +10,14 @@ div:nth-of-type(2), div:nth-of-type(3){
 
 .img{
     width: 500px;
+    object-fit: cover;
+    border-radius: 25px;
 }
 .fleche{
-    width: 50px;
+    width: 30px;
+}
+.fleche:hover{
+    background-color: brown;
+    padding: 10px;
+    border-radius: 100%;
 }
